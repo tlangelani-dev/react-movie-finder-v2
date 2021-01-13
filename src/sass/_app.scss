@@ -1,11 +1,17 @@
-.app {
+.app-cp {
     header {
         h1 {
             text-align: center;
+            margin: 28px 20px 18px;
             small {
                 font-size: 10px;
-                color: #636e72;
+                color: #dcdde1;
             }
         }
+    }
+    main {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
     }
 }

@@ -1,0 +1,20 @@
+.search-cp {
+    padding: 15px;
+    > input {
+        display: block;
+        width: 100%;
+        padding: 16px;
+        border: none;
+        outline: none;
+        background: none;
+        background-color: #eee;
+        border-radius: 6px;
+        color: #53565a;
+        font-size: 20px;
+        font-weight: 300;
+        transition: .4s ease-out;
+        &:focus {
+            box-shadow: 0 0 6px 2px #4484c4;
+        }
+    }
+}

@@ -7,8 +7,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2d3436;
+    color: white;
+    background-color: #2C3A47;
 }
 
 // components
 @import 'app';
+@import 'search';
